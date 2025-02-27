@@ -1,0 +1,1263 @@
+
+2025-02-26 10:40:57,965 - Model - INFO - **** Epoch 1 (1/32) ****
+2025-02-26 10:40:57,965 - Model - INFO - Learning rate:0.001000
+2025-02-26 10:47:59,163 - Model - INFO - Training mean loss: 0.297204
+2025-02-26 10:47:59,164 - Model - INFO - Training accuracy: 0.872679
+2025-02-26 10:47:59,164 - Model - INFO - Save model...
+2025-02-26 10:47:59,164 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 10:47:59,188 - Model - INFO - Saving model....
+2025-02-26 10:47:59,256 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2025-02-26 10:49:12,831 - Model - INFO - eval mean loss: 0.206981
+2025-02-26 10:49:12,832 - Model - INFO - eval point avg class IoU: 0.876626
+2025-02-26 10:49:12,832 - Model - INFO - eval point accuracy: 0.906522
+2025-02-26 10:49:12,832 - Model - INFO - eval point avg class acc: 0.933146
+2025-02-26 10:49:12,832 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.486, IoU: 0.818 
+class ground         weight: 0.457, IoU: 0.989 
+class soil           weight: 0.056, IoU: 0.823 
+
+2025-02-26 10:49:12,832 - Model - INFO - Eval mean loss: 0.206981
+2025-02-26 10:49:12,832 - Model - INFO - Eval accuracy: 0.906522
+2025-02-26 10:49:12,832 - Model - INFO - Save model...
+2025-02-26 10:49:12,832 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 10:49:12,861 - Model - INFO - Saving model....
+2025-02-26 10:49:12,861 - Model - INFO - Best mIoU: 0.876626
+2025-02-26 10:49:12,862 - Model - INFO - **** Epoch 2 (2/32) ****
+2025-02-26 10:49:12,862 - Model - INFO - Learning rate:0.001000
+2025-02-26 13:27:17,956 - Model - INFO - PARAMETER ...
+2025-02-26 13:27:17,956 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', seg_path='/home/xds/PycharmProjects/pythonProject1/xuGong/data/stanford_indoor3d', step_size=10, test_area=2)
+2025-02-26 13:27:26,743 - Model - INFO - The number of training data is: 23334
+2025-02-26 13:27:26,743 - Model - INFO - The number of test data is: 4874
+2025-02-26 13:27:26,812 - Model - INFO - Use pretrain model
+2025-02-26 13:27:27,247 - Model - INFO - **** Epoch 1 (1/32) ****
+2025-02-26 13:27:27,247 - Model - INFO - Learning rate:0.001000
+2025-02-26 13:34:22,876 - Model - INFO - Training mean loss: 0.162201
+2025-02-26 13:34:22,876 - Model - INFO - Training accuracy: 0.934423
+2025-02-26 13:34:22,876 - Model - INFO - Save model...
+2025-02-26 13:34:22,876 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 13:34:22,905 - Model - INFO - Saving model....
+2025-02-26 13:34:22,965 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2025-02-26 13:35:36,368 - Model - INFO - eval mean loss: 0.194402
+2025-02-26 13:35:36,368 - Model - INFO - eval point avg class IoU: 0.884414
+2025-02-26 13:35:36,369 - Model - INFO - eval point accuracy: 0.913989
+2025-02-26 13:35:36,369 - Model - INFO - eval point avg class acc: 0.939952
+2025-02-26 13:35:36,369 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.838 
+class ground         weight: 0.464, IoU: 0.986 
+class soil           weight: 0.055, IoU: 0.829 
+
+2025-02-26 13:35:36,369 - Model - INFO - Eval mean loss: 0.194402
+2025-02-26 13:35:36,369 - Model - INFO - Eval accuracy: 0.913989
+2025-02-26 13:35:36,369 - Model - INFO - Save model...
+2025-02-26 13:35:36,369 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 13:35:36,405 - Model - INFO - Saving model....
+2025-02-26 13:35:36,405 - Model - INFO - Best mIoU: 0.884414
+2025-02-26 13:35:36,405 - Model - INFO - **** Epoch 2 (2/32) ****
+2025-02-26 13:35:36,405 - Model - INFO - Learning rate:0.001000
+2025-02-26 13:42:32,829 - Model - INFO - Training mean loss: 0.128409
+2025-02-26 13:42:32,830 - Model - INFO - Training accuracy: 0.947035
+2025-02-26 13:42:32,908 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2025-02-26 13:43:45,801 - Model - INFO - eval mean loss: 0.147426
+2025-02-26 13:43:45,801 - Model - INFO - eval point avg class IoU: 0.904714
+2025-02-26 13:43:45,801 - Model - INFO - eval point accuracy: 0.934041
+2025-02-26 13:43:45,801 - Model - INFO - eval point avg class acc: 0.953522
+2025-02-26 13:43:45,801 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.486, IoU: 0.867 
+class ground         weight: 0.458, IoU: 0.973 
+class soil           weight: 0.057, IoU: 0.874 
+
+2025-02-26 13:43:45,801 - Model - INFO - Eval mean loss: 0.147426
+2025-02-26 13:43:45,801 - Model - INFO - Eval accuracy: 0.934041
+2025-02-26 13:43:45,801 - Model - INFO - Save model...
+2025-02-26 13:43:45,801 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 13:43:45,832 - Model - INFO - Saving model....
+2025-02-26 13:43:45,832 - Model - INFO - Best mIoU: 0.904714
+2025-02-26 13:43:45,832 - Model - INFO - **** Epoch 3 (3/32) ****
+2025-02-26 13:43:45,832 - Model - INFO - Learning rate:0.001000
+2025-02-26 13:50:41,202 - Model - INFO - Training mean loss: 0.117524
+2025-02-26 13:50:41,202 - Model - INFO - Training accuracy: 0.951674
+2025-02-26 13:50:41,275 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2025-02-26 13:51:54,488 - Model - INFO - eval mean loss: 0.159257
+2025-02-26 13:51:54,488 - Model - INFO - eval point avg class IoU: 0.901380
+2025-02-26 13:51:54,488 - Model - INFO - eval point accuracy: 0.930311
+2025-02-26 13:51:54,488 - Model - INFO - eval point avg class acc: 0.950515
+2025-02-26 13:51:54,488 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.858 
+class ground         weight: 0.460, IoU: 0.977 
+class soil           weight: 0.056, IoU: 0.869 
+
+2025-02-26 13:51:54,488 - Model - INFO - Eval mean loss: 0.159257
+2025-02-26 13:51:54,488 - Model - INFO - Eval accuracy: 0.930311
+2025-02-26 13:51:54,488 - Model - INFO - Best mIoU: 0.904714
+2025-02-26 13:51:54,488 - Model - INFO - **** Epoch 4 (4/32) ****
+2025-02-26 13:51:54,488 - Model - INFO - Learning rate:0.001000
+2025-02-26 13:58:51,925 - Model - INFO - Training mean loss: 0.102845
+2025-02-26 13:58:51,928 - Model - INFO - Training accuracy: 0.957339
+2025-02-26 13:58:52,008 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2025-02-26 14:00:05,240 - Model - INFO - eval mean loss: 0.133463
+2025-02-26 14:00:05,240 - Model - INFO - eval point avg class IoU: 0.919441
+2025-02-26 14:00:05,240 - Model - INFO - eval point accuracy: 0.939534
+2025-02-26 14:00:05,240 - Model - INFO - eval point avg class acc: 0.957750
+2025-02-26 14:00:05,240 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.880 
+class ground         weight: 0.459, IoU: 0.999 
+class soil           weight: 0.057, IoU: 0.879 
+
+2025-02-26 14:00:05,240 - Model - INFO - Eval mean loss: 0.133463
+2025-02-26 14:00:05,240 - Model - INFO - Eval accuracy: 0.939534
+2025-02-26 14:00:05,240 - Model - INFO - Save model...
+2025-02-26 14:00:05,240 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 14:00:05,275 - Model - INFO - Saving model....
+2025-02-26 14:00:05,275 - Model - INFO - Best mIoU: 0.919441
+2025-02-26 14:00:05,275 - Model - INFO - **** Epoch 5 (5/32) ****
+2025-02-26 14:00:05,275 - Model - INFO - Learning rate:0.001000
+2025-02-26 14:07:05,155 - Model - INFO - Training mean loss: 0.099974
+2025-02-26 14:07:05,155 - Model - INFO - Training accuracy: 0.958384
+2025-02-26 14:07:05,236 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2025-02-26 14:08:18,577 - Model - INFO - eval mean loss: 0.119871
+2025-02-26 14:08:18,577 - Model - INFO - eval point avg class IoU: 0.922626
+2025-02-26 14:08:18,577 - Model - INFO - eval point accuracy: 0.946623
+2025-02-26 14:08:18,577 - Model - INFO - eval point avg class acc: 0.962414
+2025-02-26 14:08:18,577 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.892 
+class ground         weight: 0.461, IoU: 0.980 
+class soil           weight: 0.057, IoU: 0.895 
+
+2025-02-26 14:08:18,577 - Model - INFO - Eval mean loss: 0.119871
+2025-02-26 14:08:18,577 - Model - INFO - Eval accuracy: 0.946623
+2025-02-26 14:08:18,577 - Model - INFO - Save model...
+2025-02-26 14:08:18,577 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 14:08:18,614 - Model - INFO - Saving model....
+2025-02-26 14:08:18,614 - Model - INFO - Best mIoU: 0.922626
+2025-02-26 14:08:18,614 - Model - INFO - **** Epoch 6 (6/32) ****
+2025-02-26 14:08:18,614 - Model - INFO - Learning rate:0.001000
+2025-02-26 14:15:16,267 - Model - INFO - Training mean loss: 0.086505
+2025-02-26 14:15:16,268 - Model - INFO - Training accuracy: 0.963353
+2025-02-26 14:15:16,268 - Model - INFO - Save model...
+2025-02-26 14:15:16,268 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 14:15:16,291 - Model - INFO - Saving model....
+2025-02-26 14:15:16,362 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2025-02-26 14:16:29,719 - Model - INFO - eval mean loss: 0.121026
+2025-02-26 14:16:29,719 - Model - INFO - eval point avg class IoU: 0.925604
+2025-02-26 14:16:29,719 - Model - INFO - eval point accuracy: 0.946481
+2025-02-26 14:16:29,719 - Model - INFO - eval point avg class acc: 0.962587
+2025-02-26 14:16:29,719 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.488, IoU: 0.891 
+class ground         weight: 0.456, IoU: 0.991 
+class soil           weight: 0.057, IoU: 0.895 
+
+2025-02-26 14:16:29,719 - Model - INFO - Eval mean loss: 0.121026
+2025-02-26 14:16:29,719 - Model - INFO - Eval accuracy: 0.946481
+2025-02-26 14:16:29,719 - Model - INFO - Save model...
+2025-02-26 14:16:29,719 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 14:16:29,750 - Model - INFO - Saving model....
+2025-02-26 14:16:29,750 - Model - INFO - Best mIoU: 0.925604
+2025-02-26 14:16:29,750 - Model - INFO - **** Epoch 7 (7/32) ****
+2025-02-26 14:16:29,750 - Model - INFO - Learning rate:0.001000
+2025-02-26 14:23:26,961 - Model - INFO - Training mean loss: 0.091655
+2025-02-26 14:23:26,961 - Model - INFO - Training accuracy: 0.962318
+2025-02-26 14:23:27,037 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2025-02-26 14:24:40,486 - Model - INFO - eval mean loss: 0.109349
+2025-02-26 14:24:40,487 - Model - INFO - eval point avg class IoU: 0.936554
+2025-02-26 14:24:40,487 - Model - INFO - eval point accuracy: 0.953387
+2025-02-26 14:24:40,487 - Model - INFO - eval point avg class acc: 0.966963
+2025-02-26 14:24:40,487 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.903 
+class ground         weight: 0.463, IoU: 0.998 
+class soil           weight: 0.056, IoU: 0.909 
+
+2025-02-26 14:24:40,487 - Model - INFO - Eval mean loss: 0.109349
+2025-02-26 14:24:40,487 - Model - INFO - Eval accuracy: 0.953387
+2025-02-26 14:24:40,487 - Model - INFO - Save model...
+2025-02-26 14:24:40,487 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 14:24:40,524 - Model - INFO - Saving model....
+2025-02-26 14:24:40,524 - Model - INFO - Best mIoU: 0.936554
+2025-02-26 14:24:40,524 - Model - INFO - **** Epoch 8 (8/32) ****
+2025-02-26 14:24:40,524 - Model - INFO - Learning rate:0.001000
+2025-02-26 14:31:38,556 - Model - INFO - Training mean loss: 0.086966
+2025-02-26 14:31:38,556 - Model - INFO - Training accuracy: 0.963797
+2025-02-26 14:31:38,630 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2025-02-26 14:32:51,817 - Model - INFO - eval mean loss: 0.182022
+2025-02-26 14:32:51,817 - Model - INFO - eval point avg class IoU: 0.894292
+2025-02-26 14:32:51,817 - Model - INFO - eval point accuracy: 0.927663
+2025-02-26 14:32:51,817 - Model - INFO - eval point avg class acc: 0.948778
+2025-02-26 14:32:51,817 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.855 
+class ground         weight: 0.463, IoU: 0.964 
+class soil           weight: 0.056, IoU: 0.864 
+
+2025-02-26 14:32:51,817 - Model - INFO - Eval mean loss: 0.182022
+2025-02-26 14:32:51,817 - Model - INFO - Eval accuracy: 0.927663
+2025-02-26 14:32:51,817 - Model - INFO - Best mIoU: 0.936554
+2025-02-26 14:32:51,817 - Model - INFO - **** Epoch 9 (9/32) ****
+2025-02-26 14:32:51,818 - Model - INFO - Learning rate:0.001000
+2025-02-26 14:39:47,910 - Model - INFO - Training mean loss: 0.082478
+2025-02-26 14:39:47,910 - Model - INFO - Training accuracy: 0.965342
+2025-02-26 14:39:47,989 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2025-02-26 14:41:01,251 - Model - INFO - eval mean loss: 0.106055
+2025-02-26 14:41:01,251 - Model - INFO - eval point avg class IoU: 0.936402
+2025-02-26 14:41:01,251 - Model - INFO - eval point accuracy: 0.953860
+2025-02-26 14:41:01,251 - Model - INFO - eval point avg class acc: 0.967348
+2025-02-26 14:41:01,251 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.479, IoU: 0.905 
+class ground         weight: 0.461, IoU: 0.996 
+class soil           weight: 0.059, IoU: 0.908 
+
+2025-02-26 14:41:01,251 - Model - INFO - Eval mean loss: 0.106055
+2025-02-26 14:41:01,251 - Model - INFO - Eval accuracy: 0.953860
+2025-02-26 14:41:01,251 - Model - INFO - Best mIoU: 0.936554
+2025-02-26 14:41:01,251 - Model - INFO - **** Epoch 10 (10/32) ****
+2025-02-26 14:41:01,251 - Model - INFO - Learning rate:0.001000
+2025-02-26 14:47:58,116 - Model - INFO - Training mean loss: 0.078171
+2025-02-26 14:47:58,117 - Model - INFO - Training accuracy: 0.966722
+2025-02-26 14:47:58,189 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2025-02-26 14:49:11,443 - Model - INFO - eval mean loss: 0.171173
+2025-02-26 14:49:11,443 - Model - INFO - eval point avg class IoU: 0.887698
+2025-02-26 14:49:11,443 - Model - INFO - eval point accuracy: 0.932158
+2025-02-26 14:49:11,444 - Model - INFO - eval point avg class acc: 0.951318
+2025-02-26 14:49:11,444 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.487, IoU: 0.858 
+class ground         weight: 0.457, IoU: 0.925 
+class soil           weight: 0.056, IoU: 0.881 
+
+2025-02-26 14:49:11,444 - Model - INFO - Eval mean loss: 0.171173
+2025-02-26 14:49:11,444 - Model - INFO - Eval accuracy: 0.932158
+2025-02-26 14:49:11,444 - Model - INFO - Best mIoU: 0.936554
+2025-02-26 14:49:11,444 - Model - INFO - **** Epoch 11 (11/32) ****
+2025-02-26 14:49:11,444 - Model - INFO - Learning rate:0.000700
+2025-02-26 14:56:07,050 - Model - INFO - Training mean loss: 0.073397
+2025-02-26 14:56:07,051 - Model - INFO - Training accuracy: 0.969033
+2025-02-26 14:56:07,051 - Model - INFO - Save model...
+2025-02-26 14:56:07,051 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 14:56:07,085 - Model - INFO - Saving model....
+2025-02-26 14:56:07,158 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2025-02-26 14:57:20,415 - Model - INFO - eval mean loss: 0.123936
+2025-02-26 14:57:20,415 - Model - INFO - eval point avg class IoU: 0.924467
+2025-02-26 14:57:20,415 - Model - INFO - eval point accuracy: 0.946430
+2025-02-26 14:57:20,415 - Model - INFO - eval point avg class acc: 0.962106
+2025-02-26 14:57:20,415 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.890 
+class ground         weight: 0.463, IoU: 0.987 
+class soil           weight: 0.056, IoU: 0.896 
+
+2025-02-26 14:57:20,415 - Model - INFO - Eval mean loss: 0.123936
+2025-02-26 14:57:20,415 - Model - INFO - Eval accuracy: 0.946430
+2025-02-26 14:57:20,415 - Model - INFO - Best mIoU: 0.936554
+2025-02-26 14:57:20,415 - Model - INFO - **** Epoch 12 (12/32) ****
+2025-02-26 14:57:20,415 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:04:17,231 - Model - INFO - Training mean loss: 0.066709
+2025-02-26 15:04:17,231 - Model - INFO - Training accuracy: 0.971167
+2025-02-26 15:04:17,309 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2025-02-26 15:05:30,709 - Model - INFO - eval mean loss: 0.107404
+2025-02-26 15:05:30,709 - Model - INFO - eval point avg class IoU: 0.938901
+2025-02-26 15:05:30,709 - Model - INFO - eval point accuracy: 0.955522
+2025-02-26 15:05:30,709 - Model - INFO - eval point avg class acc: 0.968627
+2025-02-26 15:05:30,709 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.909 
+class ground         weight: 0.461, IoU: 0.997 
+class soil           weight: 0.057, IoU: 0.911 
+
+2025-02-26 15:05:30,710 - Model - INFO - Eval mean loss: 0.107404
+2025-02-26 15:05:30,710 - Model - INFO - Eval accuracy: 0.955522
+2025-02-26 15:05:30,710 - Model - INFO - Save model...
+2025-02-26 15:05:30,710 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 15:05:30,745 - Model - INFO - Saving model....
+2025-02-26 15:05:30,745 - Model - INFO - Best mIoU: 0.938901
+2025-02-26 15:05:30,745 - Model - INFO - **** Epoch 13 (13/32) ****
+2025-02-26 15:05:30,745 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:12:27,768 - Model - INFO - Training mean loss: 0.069198
+2025-02-26 15:12:27,768 - Model - INFO - Training accuracy: 0.970547
+2025-02-26 15:12:27,840 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2025-02-26 15:13:41,417 - Model - INFO - eval mean loss: 0.118443
+2025-02-26 15:13:41,417 - Model - INFO - eval point avg class IoU: 0.932448
+2025-02-26 15:13:41,417 - Model - INFO - eval point accuracy: 0.951720
+2025-02-26 15:13:41,417 - Model - INFO - eval point avg class acc: 0.965906
+2025-02-26 15:13:41,417 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.901 
+class ground         weight: 0.461, IoU: 0.991 
+class soil           weight: 0.056, IoU: 0.906 
+
+2025-02-26 15:13:41,417 - Model - INFO - Eval mean loss: 0.118443
+2025-02-26 15:13:41,417 - Model - INFO - Eval accuracy: 0.951720
+2025-02-26 15:13:41,417 - Model - INFO - Best mIoU: 0.938901
+2025-02-26 15:13:41,417 - Model - INFO - **** Epoch 14 (14/32) ****
+2025-02-26 15:13:41,417 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:20:39,277 - Model - INFO - Training mean loss: 0.066253
+2025-02-26 15:20:39,277 - Model - INFO - Training accuracy: 0.971610
+2025-02-26 15:20:39,351 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2025-02-26 15:21:52,837 - Model - INFO - eval mean loss: 0.107093
+2025-02-26 15:21:52,837 - Model - INFO - eval point avg class IoU: 0.940107
+2025-02-26 15:21:52,837 - Model - INFO - eval point accuracy: 0.956091
+2025-02-26 15:21:52,837 - Model - INFO - eval point avg class acc: 0.969244
+2025-02-26 15:21:52,837 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.911 
+class ground         weight: 0.463, IoU: 0.998 
+class soil           weight: 0.055, IoU: 0.912 
+
+2025-02-26 15:21:52,837 - Model - INFO - Eval mean loss: 0.107093
+2025-02-26 15:21:52,837 - Model - INFO - Eval accuracy: 0.956091
+2025-02-26 15:21:52,837 - Model - INFO - Save model...
+2025-02-26 15:21:52,838 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 15:21:52,873 - Model - INFO - Saving model....
+2025-02-26 15:21:52,873 - Model - INFO - Best mIoU: 0.940107
+2025-02-26 15:21:52,873 - Model - INFO - **** Epoch 15 (15/32) ****
+2025-02-26 15:21:52,874 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:28:49,934 - Model - INFO - Training mean loss: 0.065996
+2025-02-26 15:28:49,934 - Model - INFO - Training accuracy: 0.971961
+2025-02-26 15:28:50,045 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2025-02-26 15:30:03,667 - Model - INFO - eval mean loss: 0.110395
+2025-02-26 15:30:03,667 - Model - INFO - eval point avg class IoU: 0.937579
+2025-02-26 15:30:03,667 - Model - INFO - eval point accuracy: 0.955474
+2025-02-26 15:30:03,667 - Model - INFO - eval point avg class acc: 0.968265
+2025-02-26 15:30:03,668 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.906 
+class ground         weight: 0.460, IoU: 0.992 
+class soil           weight: 0.056, IoU: 0.914 
+
+2025-02-26 15:30:03,668 - Model - INFO - Eval mean loss: 0.110395
+2025-02-26 15:30:03,668 - Model - INFO - Eval accuracy: 0.955474
+2025-02-26 15:30:03,668 - Model - INFO - Best mIoU: 0.940107
+2025-02-26 15:30:03,668 - Model - INFO - **** Epoch 16 (16/32) ****
+2025-02-26 15:30:03,668 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:37:00,994 - Model - INFO - Training mean loss: 0.064496
+2025-02-26 15:37:00,994 - Model - INFO - Training accuracy: 0.972419
+2025-02-26 15:37:00,994 - Model - INFO - Save model...
+2025-02-26 15:37:00,994 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 15:37:01,031 - Model - INFO - Saving model....
+2025-02-26 15:37:01,103 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2025-02-26 15:38:14,279 - Model - INFO - eval mean loss: 0.213841
+2025-02-26 15:38:14,279 - Model - INFO - eval point avg class IoU: 0.907176
+2025-02-26 15:38:14,279 - Model - INFO - eval point accuracy: 0.930411
+2025-02-26 15:38:14,279 - Model - INFO - eval point avg class acc: 0.951113
+2025-02-26 15:38:14,280 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.479, IoU: 0.864 
+class ground         weight: 0.463, IoU: 0.996 
+class soil           weight: 0.057, IoU: 0.861 
+
+2025-02-26 15:38:14,280 - Model - INFO - Eval mean loss: 0.213841
+2025-02-26 15:38:14,280 - Model - INFO - Eval accuracy: 0.930411
+2025-02-26 15:38:14,280 - Model - INFO - Best mIoU: 0.940107
+2025-02-26 15:38:14,280 - Model - INFO - **** Epoch 17 (17/32) ****
+2025-02-26 15:38:14,280 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:45:09,841 - Model - INFO - Training mean loss: 0.067615
+2025-02-26 15:45:09,841 - Model - INFO - Training accuracy: 0.971446
+2025-02-26 15:45:09,910 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2025-02-26 15:46:23,365 - Model - INFO - eval mean loss: 0.096088
+2025-02-26 15:46:23,365 - Model - INFO - eval point avg class IoU: 0.942100
+2025-02-26 15:46:23,365 - Model - INFO - eval point accuracy: 0.958399
+2025-02-26 15:46:23,365 - Model - INFO - eval point avg class acc: 0.970638
+2025-02-26 15:46:23,365 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.480, IoU: 0.915 
+class ground         weight: 0.463, IoU: 0.995 
+class soil           weight: 0.058, IoU: 0.917 
+
+2025-02-26 15:46:23,365 - Model - INFO - Eval mean loss: 0.096088
+2025-02-26 15:46:23,365 - Model - INFO - Eval accuracy: 0.958399
+2025-02-26 15:46:23,366 - Model - INFO - Save model...
+2025-02-26 15:46:23,366 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 15:46:23,403 - Model - INFO - Saving model....
+2025-02-26 15:46:23,403 - Model - INFO - Best mIoU: 0.942100
+2025-02-26 15:46:23,403 - Model - INFO - **** Epoch 18 (18/32) ****
+2025-02-26 15:46:23,403 - Model - INFO - Learning rate:0.000700
+2025-02-26 15:53:19,974 - Model - INFO - Training mean loss: 0.062532
+2025-02-26 15:53:19,974 - Model - INFO - Training accuracy: 0.973129
+2025-02-26 15:53:20,044 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2025-02-26 15:54:33,359 - Model - INFO - eval mean loss: 0.121522
+2025-02-26 15:54:33,359 - Model - INFO - eval point avg class IoU: 0.935229
+2025-02-26 15:54:33,359 - Model - INFO - eval point accuracy: 0.952228
+2025-02-26 15:54:33,359 - Model - INFO - eval point avg class acc: 0.965861
+2025-02-26 15:54:33,359 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.899 
+class ground         weight: 0.458, IoU: 0.999 
+class soil           weight: 0.059, IoU: 0.907 
+
+2025-02-26 15:54:33,359 - Model - INFO - Eval mean loss: 0.121522
+2025-02-26 15:54:33,359 - Model - INFO - Eval accuracy: 0.952228
+2025-02-26 15:54:33,360 - Model - INFO - Best mIoU: 0.942100
+2025-02-26 15:54:33,360 - Model - INFO - **** Epoch 19 (19/32) ****
+2025-02-26 15:54:33,360 - Model - INFO - Learning rate:0.000700
+2025-02-26 16:01:30,121 - Model - INFO - Training mean loss: 0.061888
+2025-02-26 16:01:30,121 - Model - INFO - Training accuracy: 0.973587
+2025-02-26 16:01:30,195 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2025-02-26 16:02:43,467 - Model - INFO - eval mean loss: 0.267954
+2025-02-26 16:02:43,467 - Model - INFO - eval point avg class IoU: 0.832809
+2025-02-26 16:02:43,467 - Model - INFO - eval point accuracy: 0.915405
+2025-02-26 16:02:43,467 - Model - INFO - eval point avg class acc: 0.939920
+2025-02-26 16:02:43,467 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.845 
+class ground         weight: 0.463, IoU: 0.805 
+class soil           weight: 0.056, IoU: 0.848 
+
+2025-02-26 16:02:43,467 - Model - INFO - Eval mean loss: 0.267954
+2025-02-26 16:02:43,467 - Model - INFO - Eval accuracy: 0.915405
+2025-02-26 16:02:43,467 - Model - INFO - Best mIoU: 0.942100
+2025-02-26 16:02:43,467 - Model - INFO - **** Epoch 20 (20/32) ****
+2025-02-26 16:02:43,467 - Model - INFO - Learning rate:0.000700
+2025-02-26 16:09:40,415 - Model - INFO - Training mean loss: 0.069110
+2025-02-26 16:09:40,415 - Model - INFO - Training accuracy: 0.971057
+2025-02-26 16:09:40,490 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2025-02-26 16:10:53,891 - Model - INFO - eval mean loss: 0.116453
+2025-02-26 16:10:53,891 - Model - INFO - eval point avg class IoU: 0.929357
+2025-02-26 16:10:53,891 - Model - INFO - eval point accuracy: 0.953145
+2025-02-26 16:10:53,892 - Model - INFO - eval point avg class acc: 0.966960
+2025-02-26 16:10:53,892 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.904 
+class ground         weight: 0.461, IoU: 0.975 
+class soil           weight: 0.056, IoU: 0.910 
+
+2025-02-26 16:10:53,892 - Model - INFO - Eval mean loss: 0.116453
+2025-02-26 16:10:53,892 - Model - INFO - Eval accuracy: 0.953145
+2025-02-26 16:10:53,892 - Model - INFO - Best mIoU: 0.942100
+2025-02-26 16:10:53,892 - Model - INFO - **** Epoch 21 (21/32) ****
+2025-02-26 16:10:53,892 - Model - INFO - Learning rate:0.000490
+2025-02-26 16:17:49,899 - Model - INFO - Training mean loss: 0.059234
+2025-02-26 16:17:49,899 - Model - INFO - Training accuracy: 0.974626
+2025-02-26 16:17:49,899 - Model - INFO - Save model...
+2025-02-26 16:17:49,899 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 16:17:49,936 - Model - INFO - Saving model....
+2025-02-26 16:17:50,009 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2025-02-26 16:19:03,445 - Model - INFO - eval mean loss: 0.130928
+2025-02-26 16:19:03,445 - Model - INFO - eval point avg class IoU: 0.929786
+2025-02-26 16:19:03,445 - Model - INFO - eval point accuracy: 0.948393
+2025-02-26 16:19:03,445 - Model - INFO - eval point avg class acc: 0.963013
+2025-02-26 16:19:03,445 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.485, IoU: 0.891 
+class ground         weight: 0.457, IoU: 0.997 
+class soil           weight: 0.058, IoU: 0.901 
+
+2025-02-26 16:19:03,445 - Model - INFO - Eval mean loss: 0.130928
+2025-02-26 16:19:03,445 - Model - INFO - Eval accuracy: 0.948393
+2025-02-26 16:19:03,445 - Model - INFO - Best mIoU: 0.942100
+2025-02-26 16:19:03,445 - Model - INFO - **** Epoch 22 (22/32) ****
+2025-02-26 16:19:03,445 - Model - INFO - Learning rate:0.000490
+2025-02-26 16:26:01,013 - Model - INFO - Training mean loss: 0.055190
+2025-02-26 16:26:01,022 - Model - INFO - Training accuracy: 0.976019
+2025-02-26 16:26:01,091 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2025-02-26 16:27:14,586 - Model - INFO - eval mean loss: 0.134810
+2025-02-26 16:27:14,586 - Model - INFO - eval point avg class IoU: 0.932081
+2025-02-26 16:27:14,587 - Model - INFO - eval point accuracy: 0.950074
+2025-02-26 16:27:14,587 - Model - INFO - eval point avg class acc: 0.964983
+2025-02-26 16:27:14,587 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.899 
+class ground         weight: 0.461, IoU: 0.997 
+class soil           weight: 0.057, IoU: 0.900 
+
+2025-02-26 16:27:14,587 - Model - INFO - Eval mean loss: 0.134810
+2025-02-26 16:27:14,587 - Model - INFO - Eval accuracy: 0.950074
+2025-02-26 16:27:14,587 - Model - INFO - Best mIoU: 0.942100
+2025-02-26 16:27:14,587 - Model - INFO - **** Epoch 23 (23/32) ****
+2025-02-26 16:27:14,587 - Model - INFO - Learning rate:0.000490
+2025-02-26 16:34:14,769 - Model - INFO - Training mean loss: 0.056902
+2025-02-26 16:34:14,772 - Model - INFO - Training accuracy: 0.975571
+2025-02-26 16:34:14,874 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2025-02-26 16:35:28,525 - Model - INFO - eval mean loss: 0.104370
+2025-02-26 16:35:28,525 - Model - INFO - eval point avg class IoU: 0.943060
+2025-02-26 16:35:28,525 - Model - INFO - eval point accuracy: 0.958658
+2025-02-26 16:35:28,525 - Model - INFO - eval point avg class acc: 0.970775
+2025-02-26 16:35:28,525 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.487, IoU: 0.914 
+class ground         weight: 0.459, IoU: 0.996 
+class soil           weight: 0.053, IoU: 0.919 
+
+2025-02-26 16:35:28,525 - Model - INFO - Eval mean loss: 0.104370
+2025-02-26 16:35:28,525 - Model - INFO - Eval accuracy: 0.958658
+2025-02-26 16:35:28,525 - Model - INFO - Save model...
+2025-02-26 16:35:28,525 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 16:35:28,562 - Model - INFO - Saving model....
+2025-02-26 16:35:28,562 - Model - INFO - Best mIoU: 0.943060
+2025-02-26 16:35:28,563 - Model - INFO - **** Epoch 24 (24/32) ****
+2025-02-26 16:35:28,563 - Model - INFO - Learning rate:0.000490
+2025-02-26 16:42:29,624 - Model - INFO - Training mean loss: 0.052534
+2025-02-26 16:42:29,625 - Model - INFO - Training accuracy: 0.977178
+2025-02-26 16:42:29,700 - Model - INFO - ---- EPOCH 024 EVALUATION ----
+2025-02-26 16:43:43,046 - Model - INFO - eval mean loss: 0.100525
+2025-02-26 16:43:43,046 - Model - INFO - eval point avg class IoU: 0.945822
+2025-02-26 16:43:43,046 - Model - INFO - eval point accuracy: 0.960193
+2025-02-26 16:43:43,046 - Model - INFO - eval point avg class acc: 0.971724
+2025-02-26 16:43:43,046 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.916 
+class ground         weight: 0.462, IoU: 0.999 
+class soil           weight: 0.054, IoU: 0.922 
+
+2025-02-26 16:43:43,046 - Model - INFO - Eval mean loss: 0.100525
+2025-02-26 16:43:43,046 - Model - INFO - Eval accuracy: 0.960193
+2025-02-26 16:43:43,047 - Model - INFO - Save model...
+2025-02-26 16:43:43,047 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 16:43:43,083 - Model - INFO - Saving model....
+2025-02-26 16:43:43,083 - Model - INFO - Best mIoU: 0.945822
+2025-02-26 16:43:43,083 - Model - INFO - **** Epoch 25 (25/32) ****
+2025-02-26 16:43:43,083 - Model - INFO - Learning rate:0.000490
+2025-02-26 16:50:40,212 - Model - INFO - Training mean loss: 0.054799
+2025-02-26 16:50:40,212 - Model - INFO - Training accuracy: 0.976221
+2025-02-26 16:50:40,286 - Model - INFO - ---- EPOCH 025 EVALUATION ----
+2025-02-26 16:51:53,435 - Model - INFO - eval mean loss: 0.098851
+2025-02-26 16:51:53,435 - Model - INFO - eval point avg class IoU: 0.946288
+2025-02-26 16:51:53,435 - Model - INFO - eval point accuracy: 0.960472
+2025-02-26 16:51:53,435 - Model - INFO - eval point avg class acc: 0.972085
+2025-02-26 16:51:53,435 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.918 
+class ground         weight: 0.463, IoU: 1.000 
+class soil           weight: 0.056, IoU: 0.921 
+
+2025-02-26 16:51:53,436 - Model - INFO - Eval mean loss: 0.098851
+2025-02-26 16:51:53,436 - Model - INFO - Eval accuracy: 0.960472
+2025-02-26 16:51:53,436 - Model - INFO - Save model...
+2025-02-26 16:51:53,436 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 16:51:53,469 - Model - INFO - Saving model....
+2025-02-26 16:51:53,469 - Model - INFO - Best mIoU: 0.946288
+2025-02-26 16:51:53,469 - Model - INFO - **** Epoch 26 (26/32) ****
+2025-02-26 16:51:53,469 - Model - INFO - Learning rate:0.000490
+2025-02-26 16:58:50,748 - Model - INFO - Training mean loss: 0.054043
+2025-02-26 16:58:50,748 - Model - INFO - Training accuracy: 0.976572
+2025-02-26 16:58:50,748 - Model - INFO - Save model...
+2025-02-26 16:58:50,748 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 16:58:50,782 - Model - INFO - Saving model....
+2025-02-26 16:58:50,869 - Model - INFO - ---- EPOCH 026 EVALUATION ----
+2025-02-26 17:00:04,141 - Model - INFO - eval mean loss: 0.103396
+2025-02-26 17:00:04,142 - Model - INFO - eval point avg class IoU: 0.943117
+2025-02-26 17:00:04,142 - Model - INFO - eval point accuracy: 0.958446
+2025-02-26 17:00:04,142 - Model - INFO - eval point avg class acc: 0.970618
+2025-02-26 17:00:04,142 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.487, IoU: 0.913 
+class ground         weight: 0.459, IoU: 0.998 
+class soil           weight: 0.054, IoU: 0.919 
+
+2025-02-26 17:00:04,142 - Model - INFO - Eval mean loss: 0.103396
+2025-02-26 17:00:04,142 - Model - INFO - Eval accuracy: 0.958446
+2025-02-26 17:00:04,142 - Model - INFO - Best mIoU: 0.946288
+2025-02-26 17:00:04,142 - Model - INFO - **** Epoch 27 (27/32) ****
+2025-02-26 17:00:04,142 - Model - INFO - Learning rate:0.000490
+2025-02-26 17:07:00,923 - Model - INFO - Training mean loss: 0.054242
+2025-02-26 17:07:00,923 - Model - INFO - Training accuracy: 0.976742
+2025-02-26 17:07:00,998 - Model - INFO - ---- EPOCH 027 EVALUATION ----
+2025-02-26 17:08:14,346 - Model - INFO - eval mean loss: 0.098825
+2025-02-26 17:08:14,347 - Model - INFO - eval point avg class IoU: 0.947483
+2025-02-26 17:08:14,347 - Model - INFO - eval point accuracy: 0.961305
+2025-02-26 17:08:14,347 - Model - INFO - eval point avg class acc: 0.972588
+2025-02-26 17:08:14,347 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.919 
+class ground         weight: 0.463, IoU: 1.000 
+class soil           weight: 0.054, IoU: 0.924 
+
+2025-02-26 17:08:14,347 - Model - INFO - Eval mean loss: 0.098825
+2025-02-26 17:08:14,347 - Model - INFO - Eval accuracy: 0.961305
+2025-02-26 17:08:14,347 - Model - INFO - Save model...
+2025-02-26 17:08:14,347 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 17:08:14,380 - Model - INFO - Saving model....
+2025-02-26 17:08:14,381 - Model - INFO - Best mIoU: 0.947483
+2025-02-26 17:08:14,381 - Model - INFO - **** Epoch 28 (28/32) ****
+2025-02-26 17:08:14,381 - Model - INFO - Learning rate:0.000490
+2025-02-26 17:15:11,109 - Model - INFO - Training mean loss: 0.053800
+2025-02-26 17:15:11,109 - Model - INFO - Training accuracy: 0.976853
+2025-02-26 17:15:11,187 - Model - INFO - ---- EPOCH 028 EVALUATION ----
+2025-02-26 17:16:24,288 - Model - INFO - eval mean loss: 0.090426
+2025-02-26 17:16:24,288 - Model - INFO - eval point avg class IoU: 0.948344
+2025-02-26 17:16:24,288 - Model - INFO - eval point accuracy: 0.962644
+2025-02-26 17:16:24,288 - Model - INFO - eval point avg class acc: 0.973555
+2025-02-26 17:16:24,288 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.922 
+class ground         weight: 0.462, IoU: 0.997 
+class soil           weight: 0.056, IoU: 0.926 
+
+2025-02-26 17:16:24,289 - Model - INFO - Eval mean loss: 0.090426
+2025-02-26 17:16:24,289 - Model - INFO - Eval accuracy: 0.962644
+2025-02-26 17:16:24,289 - Model - INFO - Save model...
+2025-02-26 17:16:24,289 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 17:16:24,318 - Model - INFO - Saving model....
+2025-02-26 17:16:24,318 - Model - INFO - Best mIoU: 0.948344
+2025-02-26 17:16:24,318 - Model - INFO - **** Epoch 29 (29/32) ****
+2025-02-26 17:16:24,318 - Model - INFO - Learning rate:0.000490
+2025-02-26 17:23:20,617 - Model - INFO - Training mean loss: 0.050104
+2025-02-26 17:23:20,617 - Model - INFO - Training accuracy: 0.978081
+2025-02-26 17:23:20,687 - Model - INFO - ---- EPOCH 029 EVALUATION ----
+2025-02-26 17:24:34,239 - Model - INFO - eval mean loss: 0.107925
+2025-02-26 17:24:34,239 - Model - INFO - eval point avg class IoU: 0.944083
+2025-02-26 17:24:34,239 - Model - INFO - eval point accuracy: 0.958972
+2025-02-26 17:24:34,239 - Model - INFO - eval point avg class acc: 0.970914
+2025-02-26 17:24:34,239 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.914 
+class ground         weight: 0.462, IoU: 0.999 
+class soil           weight: 0.055, IoU: 0.919 
+
+2025-02-26 17:24:34,239 - Model - INFO - Eval mean loss: 0.107925
+2025-02-26 17:24:34,239 - Model - INFO - Eval accuracy: 0.958972
+2025-02-26 17:24:34,239 - Model - INFO - Best mIoU: 0.948344
+2025-02-26 17:24:34,239 - Model - INFO - **** Epoch 30 (30/32) ****
+2025-02-26 17:24:34,240 - Model - INFO - Learning rate:0.000490
+2025-02-26 17:31:30,788 - Model - INFO - Training mean loss: 0.053390
+2025-02-26 17:31:30,788 - Model - INFO - Training accuracy: 0.977159
+2025-02-26 17:31:30,862 - Model - INFO - ---- EPOCH 030 EVALUATION ----
+2025-02-26 17:32:43,918 - Model - INFO - eval mean loss: 0.094378
+2025-02-26 17:32:43,918 - Model - INFO - eval point avg class IoU: 0.948107
+2025-02-26 17:32:43,918 - Model - INFO - eval point accuracy: 0.962177
+2025-02-26 17:32:43,918 - Model - INFO - eval point avg class acc: 0.973413
+2025-02-26 17:32:43,918 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.922 
+class ground         weight: 0.461, IoU: 0.998 
+class soil           weight: 0.056, IoU: 0.924 
+
+2025-02-26 17:32:43,918 - Model - INFO - Eval mean loss: 0.094378
+2025-02-26 17:32:43,918 - Model - INFO - Eval accuracy: 0.962177
+2025-02-26 17:32:43,918 - Model - INFO - Best mIoU: 0.948344
+2025-02-26 17:32:43,918 - Model - INFO - **** Epoch 31 (31/32) ****
+2025-02-26 17:32:43,918 - Model - INFO - Learning rate:0.000343
+2025-02-26 17:39:39,470 - Model - INFO - Training mean loss: 0.047033
+2025-02-26 17:39:39,470 - Model - INFO - Training accuracy: 0.979448
+2025-02-26 17:39:39,470 - Model - INFO - Save model...
+2025-02-26 17:39:39,470 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 17:39:39,508 - Model - INFO - Saving model....
+2025-02-26 17:39:39,582 - Model - INFO - ---- EPOCH 031 EVALUATION ----
+2025-02-26 17:40:52,837 - Model - INFO - eval mean loss: 0.095591
+2025-02-26 17:40:52,838 - Model - INFO - eval point avg class IoU: 0.946588
+2025-02-26 17:40:52,838 - Model - INFO - eval point accuracy: 0.962036
+2025-02-26 17:40:52,838 - Model - INFO - eval point avg class acc: 0.973156
+2025-02-26 17:40:52,838 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.480, IoU: 0.921 
+class ground         weight: 0.464, IoU: 0.994 
+class soil           weight: 0.056, IoU: 0.924 
+
+2025-02-26 17:40:52,838 - Model - INFO - Eval mean loss: 0.095591
+2025-02-26 17:40:52,838 - Model - INFO - Eval accuracy: 0.962036
+2025-02-26 17:40:52,838 - Model - INFO - Best mIoU: 0.948344
+2025-02-26 17:40:52,838 - Model - INFO - **** Epoch 32 (32/32) ****
+2025-02-26 17:40:52,838 - Model - INFO - Learning rate:0.000343
+2025-02-26 17:47:49,352 - Model - INFO - Training mean loss: 0.048665
+2025-02-26 17:47:49,352 - Model - INFO - Training accuracy: 0.979086
+2025-02-26 17:47:49,447 - Model - INFO - ---- EPOCH 032 EVALUATION ----
+2025-02-26 17:49:02,856 - Model - INFO - eval mean loss: 0.096746
+2025-02-26 17:49:02,856 - Model - INFO - eval point avg class IoU: 0.947632
+2025-02-26 17:49:02,856 - Model - INFO - eval point accuracy: 0.961563
+2025-02-26 17:49:02,856 - Model - INFO - eval point avg class acc: 0.972777
+2025-02-26 17:49:02,856 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.920 
+class ground         weight: 0.462, IoU: 1.000 
+class soil           weight: 0.057, IoU: 0.924 
+
+2025-02-26 17:49:02,856 - Model - INFO - Eval mean loss: 0.096746
+2025-02-26 17:49:02,856 - Model - INFO - Eval accuracy: 0.961563
+2025-02-26 17:49:02,856 - Model - INFO - Best mIoU: 0.948344
+2025-02-26 19:50:47,791 - Model - INFO - PARAMETER ...
+2025-02-26 19:50:47,791 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', seg_path='/home/xds/PycharmProjects/pythonProject1/xuGong/data/stanford_indoor3d', step_size=10, test_area=2)
+2025-02-26 19:50:57,105 - Model - INFO - The number of training data is: 23334
+2025-02-26 19:50:57,105 - Model - INFO - The number of test data is: 4874
+2025-02-26 19:50:57,173 - Model - INFO - Use pretrain model
+2025-02-26 19:50:57,591 - Model - INFO - **** Epoch 1 (28/32) ****
+2025-02-26 19:50:57,591 - Model - INFO - Learning rate:0.000490
+2025-02-26 19:51:51,392 - Model - INFO - PARAMETER ...
+2025-02-26 19:51:51,392 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='0', learning_rate=0.001, log_dir='pointnet2_sem_seg', lr_decay=0.7, model='pointnet2_sem_seg', npoint=4096, optimizer='Adam', seg_path='/home/xds/PycharmProjects/pythonProject1/xuGong/data/stanford_indoor3d', step_size=10, test_area=2)
+2025-02-26 19:52:00,193 - Model - INFO - The number of training data is: 23334
+2025-02-26 19:52:00,193 - Model - INFO - The number of test data is: 4874
+2025-02-26 19:52:00,206 - Model - INFO - No existing model, starting training from scratch...
+2025-02-26 19:52:00,634 - Model - INFO - **** Epoch 1 (1/32) ****
+2025-02-26 19:52:00,634 - Model - INFO - Learning rate:0.001000
+2025-02-26 19:59:09,547 - Model - INFO - Training mean loss: 0.297480
+2025-02-26 19:59:09,547 - Model - INFO - Training accuracy: 0.872333
+2025-02-26 19:59:09,547 - Model - INFO - Save model...
+2025-02-26 19:59:09,547 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 19:59:09,572 - Model - INFO - Saving model....
+2025-02-26 19:59:09,572 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2025-02-26 20:00:26,009 - Model - INFO - eval mean loss: 0.219427
+2025-02-26 20:00:26,011 - Model - INFO - eval point avg class IoU: 0.869843
+2025-02-26 20:00:26,011 - Model - INFO - eval point accuracy: 0.903149
+2025-02-26 20:00:26,011 - Model - INFO - eval point avg class acc: 0.928823
+2025-02-26 20:00:26,011 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.813 
+class ground         weight: 0.460, IoU: 0.980 
+class soil           weight: 0.058, IoU: 0.816 
+
+2025-02-26 20:00:26,011 - Model - INFO - Eval mean loss: 0.219427
+2025-02-26 20:00:26,011 - Model - INFO - Eval accuracy: 0.903149
+2025-02-26 20:00:26,011 - Model - INFO - Save model...
+2025-02-26 20:00:26,012 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:00:26,055 - Model - INFO - Saving model....
+2025-02-26 20:00:26,055 - Model - INFO - Best mIoU: 0.869843
+2025-02-26 20:00:26,056 - Model - INFO - **** Epoch 2 (2/32) ****
+2025-02-26 20:00:26,056 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:07:42,042 - Model - INFO - Training mean loss: 0.174710
+2025-02-26 20:07:42,046 - Model - INFO - Training accuracy: 0.929466
+2025-02-26 20:07:42,046 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2025-02-26 20:08:57,835 - Model - INFO - eval mean loss: 0.207569
+2025-02-26 20:08:57,835 - Model - INFO - eval point avg class IoU: 0.887209
+2025-02-26 20:08:57,835 - Model - INFO - eval point accuracy: 0.914714
+2025-02-26 20:08:57,835 - Model - INFO - eval point avg class acc: 0.940047
+2025-02-26 20:08:57,835 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.836 
+class ground         weight: 0.463, IoU: 0.992 
+class soil           weight: 0.056, IoU: 0.834 
+
+2025-02-26 20:08:57,835 - Model - INFO - Eval mean loss: 0.207569
+2025-02-26 20:08:57,835 - Model - INFO - Eval accuracy: 0.914714
+2025-02-26 20:08:57,835 - Model - INFO - Save model...
+2025-02-26 20:08:57,835 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:08:57,875 - Model - INFO - Saving model....
+2025-02-26 20:08:57,875 - Model - INFO - Best mIoU: 0.887209
+2025-02-26 20:08:57,875 - Model - INFO - **** Epoch 3 (3/32) ****
+2025-02-26 20:08:57,875 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:16:01,600 - Model - INFO - Training mean loss: 0.134025
+2025-02-26 20:16:01,603 - Model - INFO - Training accuracy: 0.944677
+2025-02-26 20:16:01,605 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2025-02-26 20:17:16,044 - Model - INFO - eval mean loss: 0.172207
+2025-02-26 20:17:16,045 - Model - INFO - eval point avg class IoU: 0.905016
+2025-02-26 20:17:16,045 - Model - INFO - eval point accuracy: 0.928803
+2025-02-26 20:17:16,045 - Model - INFO - eval point avg class acc: 0.950313
+2025-02-26 20:17:16,045 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.486, IoU: 0.861 
+class ground         weight: 0.460, IoU: 0.995 
+class soil           weight: 0.054, IoU: 0.859 
+
+2025-02-26 20:17:16,045 - Model - INFO - Eval mean loss: 0.172207
+2025-02-26 20:17:16,045 - Model - INFO - Eval accuracy: 0.928803
+2025-02-26 20:17:16,045 - Model - INFO - Save model...
+2025-02-26 20:17:16,045 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:17:16,095 - Model - INFO - Saving model....
+2025-02-26 20:17:16,095 - Model - INFO - Best mIoU: 0.905016
+2025-02-26 20:17:16,095 - Model - INFO - **** Epoch 4 (4/32) ****
+2025-02-26 20:17:16,095 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:24:34,457 - Model - INFO - Training mean loss: 0.128966
+2025-02-26 20:24:34,462 - Model - INFO - Training accuracy: 0.947726
+2025-02-26 20:24:34,467 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2025-02-26 20:25:49,867 - Model - INFO - eval mean loss: 0.151124
+2025-02-26 20:25:49,867 - Model - INFO - eval point avg class IoU: 0.905988
+2025-02-26 20:25:49,867 - Model - INFO - eval point accuracy: 0.933297
+2025-02-26 20:25:49,867 - Model - INFO - eval point avg class acc: 0.952958
+2025-02-26 20:25:49,867 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.487, IoU: 0.866 
+class ground         weight: 0.456, IoU: 0.981 
+class soil           weight: 0.058, IoU: 0.872 
+
+2025-02-26 20:25:49,868 - Model - INFO - Eval mean loss: 0.151124
+2025-02-26 20:25:49,868 - Model - INFO - Eval accuracy: 0.933297
+2025-02-26 20:25:49,868 - Model - INFO - Save model...
+2025-02-26 20:25:49,868 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:25:49,921 - Model - INFO - Saving model....
+2025-02-26 20:25:49,922 - Model - INFO - Best mIoU: 0.905988
+2025-02-26 20:25:49,922 - Model - INFO - **** Epoch 5 (5/32) ****
+2025-02-26 20:25:49,922 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:33:02,162 - Model - INFO - Training mean loss: 0.111645
+2025-02-26 20:33:02,164 - Model - INFO - Training accuracy: 0.953610
+2025-02-26 20:33:02,168 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2025-02-26 20:34:15,681 - Model - INFO - eval mean loss: 0.136676
+2025-02-26 20:34:15,682 - Model - INFO - eval point avg class IoU: 0.922357
+2025-02-26 20:34:15,682 - Model - INFO - eval point accuracy: 0.942034
+2025-02-26 20:34:15,682 - Model - INFO - eval point avg class acc: 0.958459
+2025-02-26 20:34:15,682 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.878 
+class ground         weight: 0.459, IoU: 0.999 
+class soil           weight: 0.057, IoU: 0.890 
+
+2025-02-26 20:34:15,682 - Model - INFO - Eval mean loss: 0.136676
+2025-02-26 20:34:15,682 - Model - INFO - Eval accuracy: 0.942034
+2025-02-26 20:34:15,682 - Model - INFO - Save model...
+2025-02-26 20:34:15,683 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:34:15,730 - Model - INFO - Saving model....
+2025-02-26 20:34:15,730 - Model - INFO - Best mIoU: 0.922357
+2025-02-26 20:34:15,730 - Model - INFO - **** Epoch 6 (6/32) ****
+2025-02-26 20:34:15,730 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:41:27,241 - Model - INFO - Training mean loss: 0.103309
+2025-02-26 20:41:27,247 - Model - INFO - Training accuracy: 0.957228
+2025-02-26 20:41:27,247 - Model - INFO - Save model...
+2025-02-26 20:41:27,248 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 20:41:27,301 - Model - INFO - Saving model....
+2025-02-26 20:41:27,303 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2025-02-26 20:42:41,075 - Model - INFO - eval mean loss: 0.135087
+2025-02-26 20:42:41,075 - Model - INFO - eval point avg class IoU: 0.919895
+2025-02-26 20:42:41,075 - Model - INFO - eval point accuracy: 0.942991
+2025-02-26 20:42:41,076 - Model - INFO - eval point avg class acc: 0.959409
+2025-02-26 20:42:41,076 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.485, IoU: 0.881 
+class ground         weight: 0.459, IoU: 0.987 
+class soil           weight: 0.056, IoU: 0.892 
+
+2025-02-26 20:42:41,076 - Model - INFO - Eval mean loss: 0.135087
+2025-02-26 20:42:41,076 - Model - INFO - Eval accuracy: 0.942991
+2025-02-26 20:42:41,076 - Model - INFO - Best mIoU: 0.922357
+2025-02-26 20:42:41,076 - Model - INFO - **** Epoch 7 (7/32) ****
+2025-02-26 20:42:41,076 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:49:41,377 - Model - INFO - Training mean loss: 0.097962
+2025-02-26 20:49:41,384 - Model - INFO - Training accuracy: 0.959624
+2025-02-26 20:49:41,387 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2025-02-26 20:50:55,528 - Model - INFO - eval mean loss: 0.123151
+2025-02-26 20:50:55,528 - Model - INFO - eval point avg class IoU: 0.923370
+2025-02-26 20:50:55,528 - Model - INFO - eval point accuracy: 0.943969
+2025-02-26 20:50:55,528 - Model - INFO - eval point avg class acc: 0.961105
+2025-02-26 20:50:55,528 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.486, IoU: 0.889 
+class ground         weight: 0.456, IoU: 0.994 
+class soil           weight: 0.058, IoU: 0.887 
+
+2025-02-26 20:50:55,528 - Model - INFO - Eval mean loss: 0.123151
+2025-02-26 20:50:55,528 - Model - INFO - Eval accuracy: 0.943969
+2025-02-26 20:50:55,528 - Model - INFO - Save model...
+2025-02-26 20:50:55,529 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:50:55,583 - Model - INFO - Saving model....
+2025-02-26 20:50:55,583 - Model - INFO - Best mIoU: 0.923370
+2025-02-26 20:50:55,583 - Model - INFO - **** Epoch 8 (8/32) ****
+2025-02-26 20:50:55,583 - Model - INFO - Learning rate:0.001000
+2025-02-26 20:57:58,336 - Model - INFO - Training mean loss: 0.090164
+2025-02-26 20:57:58,341 - Model - INFO - Training accuracy: 0.962139
+2025-02-26 20:57:58,343 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2025-02-26 20:59:13,321 - Model - INFO - eval mean loss: 0.106984
+2025-02-26 20:59:13,322 - Model - INFO - eval point avg class IoU: 0.934658
+2025-02-26 20:59:13,322 - Model - INFO - eval point accuracy: 0.952640
+2025-02-26 20:59:13,322 - Model - INFO - eval point avg class acc: 0.966764
+2025-02-26 20:59:13,322 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.904 
+class ground         weight: 0.463, IoU: 0.995 
+class soil           weight: 0.056, IoU: 0.905 
+
+2025-02-26 20:59:13,322 - Model - INFO - Eval mean loss: 0.106984
+2025-02-26 20:59:13,322 - Model - INFO - Eval accuracy: 0.952640
+2025-02-26 20:59:13,322 - Model - INFO - Save model...
+2025-02-26 20:59:13,323 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 20:59:13,361 - Model - INFO - Saving model....
+2025-02-26 20:59:13,362 - Model - INFO - Best mIoU: 0.934658
+2025-02-26 20:59:13,362 - Model - INFO - **** Epoch 9 (9/32) ****
+2025-02-26 20:59:13,362 - Model - INFO - Learning rate:0.001000
+2025-02-26 21:06:43,114 - Model - INFO - Training mean loss: 0.087106
+2025-02-26 21:06:43,118 - Model - INFO - Training accuracy: 0.963558
+2025-02-26 21:06:43,120 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2025-02-26 21:07:59,532 - Model - INFO - eval mean loss: 0.107931
+2025-02-26 21:07:59,532 - Model - INFO - eval point avg class IoU: 0.934168
+2025-02-26 21:07:59,532 - Model - INFO - eval point accuracy: 0.952104
+2025-02-26 21:07:59,532 - Model - INFO - eval point avg class acc: 0.966139
+2025-02-26 21:07:59,532 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.901 
+class ground         weight: 0.462, IoU: 0.995 
+class soil           weight: 0.056, IoU: 0.906 
+
+2025-02-26 21:07:59,532 - Model - INFO - Eval mean loss: 0.107931
+2025-02-26 21:07:59,532 - Model - INFO - Eval accuracy: 0.952104
+2025-02-26 21:07:59,532 - Model - INFO - Best mIoU: 0.934658
+2025-02-26 21:07:59,532 - Model - INFO - **** Epoch 10 (10/32) ****
+2025-02-26 21:07:59,532 - Model - INFO - Learning rate:0.001000
+2025-02-26 21:15:18,026 - Model - INFO - Training mean loss: 0.083727
+2025-02-26 21:15:18,030 - Model - INFO - Training accuracy: 0.964902
+2025-02-26 21:15:18,032 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2025-02-26 21:16:34,116 - Model - INFO - eval mean loss: 0.130354
+2025-02-26 21:16:34,117 - Model - INFO - eval point avg class IoU: 0.930912
+2025-02-26 21:16:34,117 - Model - INFO - eval point accuracy: 0.948815
+2025-02-26 21:16:34,117 - Model - INFO - eval point avg class acc: 0.963297
+2025-02-26 21:16:34,117 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.485, IoU: 0.891 
+class ground         weight: 0.460, IoU: 0.999 
+class soil           weight: 0.054, IoU: 0.903 
+
+2025-02-26 21:16:34,117 - Model - INFO - Eval mean loss: 0.130354
+2025-02-26 21:16:34,117 - Model - INFO - Eval accuracy: 0.948815
+2025-02-26 21:16:34,118 - Model - INFO - Best mIoU: 0.934658
+2025-02-26 21:16:34,118 - Model - INFO - **** Epoch 11 (11/32) ****
+2025-02-26 21:16:34,118 - Model - INFO - Learning rate:0.000700
+2025-02-26 21:23:39,482 - Model - INFO - Training mean loss: 0.067946
+2025-02-26 21:23:39,493 - Model - INFO - Training accuracy: 0.970698
+2025-02-26 21:23:39,493 - Model - INFO - Save model...
+2025-02-26 21:23:39,495 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 21:23:39,571 - Model - INFO - Saving model....
+2025-02-26 21:23:39,576 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2025-02-26 21:24:53,541 - Model - INFO - eval mean loss: 0.148990
+2025-02-26 21:24:53,541 - Model - INFO - eval point avg class IoU: 0.908857
+2025-02-26 21:24:53,541 - Model - INFO - eval point accuracy: 0.933130
+2025-02-26 21:24:53,541 - Model - INFO - eval point avg class acc: 0.953329
+2025-02-26 21:24:53,541 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.869 
+class ground         weight: 0.460, IoU: 0.990 
+class soil           weight: 0.056, IoU: 0.867 
+
+2025-02-26 21:24:53,541 - Model - INFO - Eval mean loss: 0.148990
+2025-02-26 21:24:53,541 - Model - INFO - Eval accuracy: 0.933130
+2025-02-26 21:24:53,541 - Model - INFO - Best mIoU: 0.934658
+2025-02-26 21:24:53,541 - Model - INFO - **** Epoch 12 (12/32) ****
+2025-02-26 21:24:53,541 - Model - INFO - Learning rate:0.000700
+2025-02-26 21:31:56,067 - Model - INFO - Training mean loss: 0.070238
+2025-02-26 21:31:56,072 - Model - INFO - Training accuracy: 0.970173
+2025-02-26 21:31:56,076 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2025-02-26 21:33:10,101 - Model - INFO - eval mean loss: 0.096853
+2025-02-26 21:33:10,102 - Model - INFO - eval point avg class IoU: 0.942448
+2025-02-26 21:33:10,102 - Model - INFO - eval point accuracy: 0.958376
+2025-02-26 21:33:10,102 - Model - INFO - eval point avg class acc: 0.970631
+2025-02-26 21:33:10,102 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.480, IoU: 0.915 
+class ground         weight: 0.461, IoU: 0.996 
+class soil           weight: 0.058, IoU: 0.917 
+
+2025-02-26 21:33:10,102 - Model - INFO - Eval mean loss: 0.096853
+2025-02-26 21:33:10,102 - Model - INFO - Eval accuracy: 0.958376
+2025-02-26 21:33:10,102 - Model - INFO - Save model...
+2025-02-26 21:33:10,102 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 21:33:11,105 - Model - INFO - Saving model....
+2025-02-26 21:33:11,106 - Model - INFO - Best mIoU: 0.942448
+2025-02-26 21:33:11,106 - Model - INFO - **** Epoch 13 (13/32) ****
+2025-02-26 21:33:11,106 - Model - INFO - Learning rate:0.000700
+2025-02-26 21:40:16,707 - Model - INFO - Training mean loss: 0.066143
+2025-02-26 21:40:16,709 - Model - INFO - Training accuracy: 0.971780
+2025-02-26 21:40:16,713 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2025-02-26 21:41:33,110 - Model - INFO - eval mean loss: 0.091421
+2025-02-26 21:41:33,111 - Model - INFO - eval point avg class IoU: 0.946894
+2025-02-26 21:41:33,111 - Model - INFO - eval point accuracy: 0.960932
+2025-02-26 21:41:33,111 - Model - INFO - eval point avg class acc: 0.972361
+2025-02-26 21:41:33,111 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.919 
+class ground         weight: 0.462, IoU: 1.000 
+class soil           weight: 0.057, IoU: 0.922 
+
+2025-02-26 21:41:33,111 - Model - INFO - Eval mean loss: 0.091421
+2025-02-26 21:41:33,111 - Model - INFO - Eval accuracy: 0.960932
+2025-02-26 21:41:33,111 - Model - INFO - Save model...
+2025-02-26 21:41:33,112 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 21:41:33,167 - Model - INFO - Saving model....
+2025-02-26 21:41:33,168 - Model - INFO - Best mIoU: 0.946894
+2025-02-26 21:41:33,169 - Model - INFO - **** Epoch 14 (14/32) ****
+2025-02-26 21:41:33,169 - Model - INFO - Learning rate:0.000700
+2025-02-26 21:49:12,961 - Model - INFO - Training mean loss: 0.071384
+2025-02-26 21:49:12,968 - Model - INFO - Training accuracy: 0.970247
+2025-02-26 21:49:12,970 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2025-02-26 21:50:27,616 - Model - INFO - eval mean loss: 0.097465
+2025-02-26 21:50:27,616 - Model - INFO - eval point avg class IoU: 0.942822
+2025-02-26 21:50:27,616 - Model - INFO - eval point accuracy: 0.959469
+2025-02-26 21:50:27,616 - Model - INFO - eval point avg class acc: 0.971425
+2025-02-26 21:50:27,616 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.485, IoU: 0.916 
+class ground         weight: 0.458, IoU: 0.993 
+class soil           weight: 0.057, IoU: 0.920 
+
+2025-02-26 21:50:27,616 - Model - INFO - Eval mean loss: 0.097465
+2025-02-26 21:50:27,616 - Model - INFO - Eval accuracy: 0.959469
+2025-02-26 21:50:27,616 - Model - INFO - Best mIoU: 0.946894
+2025-02-26 21:50:27,616 - Model - INFO - **** Epoch 15 (15/32) ****
+2025-02-26 21:50:27,616 - Model - INFO - Learning rate:0.000700
+2025-02-26 21:57:49,624 - Model - INFO - Training mean loss: 0.066306
+2025-02-26 21:57:49,632 - Model - INFO - Training accuracy: 0.971860
+2025-02-26 21:57:49,634 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2025-02-26 21:59:04,949 - Model - INFO - eval mean loss: 0.090743
+2025-02-26 21:59:04,950 - Model - INFO - eval point avg class IoU: 0.944709
+2025-02-26 21:59:04,950 - Model - INFO - eval point accuracy: 0.960607
+2025-02-26 21:59:04,950 - Model - INFO - eval point avg class acc: 0.972006
+2025-02-26 21:59:04,950 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.917 
+class ground         weight: 0.461, IoU: 0.994 
+class soil           weight: 0.057, IoU: 0.923 
+
+2025-02-26 21:59:04,950 - Model - INFO - Eval mean loss: 0.090743
+2025-02-26 21:59:04,950 - Model - INFO - Eval accuracy: 0.960607
+2025-02-26 21:59:04,950 - Model - INFO - Best mIoU: 0.946894
+2025-02-26 21:59:04,950 - Model - INFO - **** Epoch 16 (16/32) ****
+2025-02-26 21:59:04,950 - Model - INFO - Learning rate:0.000700
+2025-02-26 22:06:06,992 - Model - INFO - Training mean loss: 0.061237
+2025-02-26 22:06:06,996 - Model - INFO - Training accuracy: 0.973867
+2025-02-26 22:06:06,996 - Model - INFO - Save model...
+2025-02-26 22:06:06,997 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 22:06:07,067 - Model - INFO - Saving model....
+2025-02-26 22:06:07,070 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2025-02-26 22:07:20,698 - Model - INFO - eval mean loss: 0.102037
+2025-02-26 22:07:20,698 - Model - INFO - eval point avg class IoU: 0.943483
+2025-02-26 22:07:20,698 - Model - INFO - eval point accuracy: 0.958554
+2025-02-26 22:07:20,698 - Model - INFO - eval point avg class acc: 0.970824
+2025-02-26 22:07:20,699 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.485, IoU: 0.914 
+class ground         weight: 0.460, IoU: 0.998 
+class soil           weight: 0.054, IoU: 0.918 
+
+2025-02-26 22:07:20,699 - Model - INFO - Eval mean loss: 0.102037
+2025-02-26 22:07:20,699 - Model - INFO - Eval accuracy: 0.958554
+2025-02-26 22:07:20,699 - Model - INFO - Best mIoU: 0.946894
+2025-02-26 22:07:20,699 - Model - INFO - **** Epoch 17 (17/32) ****
+2025-02-26 22:07:20,699 - Model - INFO - Learning rate:0.000700
+2025-02-26 22:14:19,820 - Model - INFO - Training mean loss: 0.060264
+2025-02-26 22:14:19,822 - Model - INFO - Training accuracy: 0.974162
+2025-02-26 22:14:19,822 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2025-02-26 22:15:33,734 - Model - INFO - eval mean loss: 0.104049
+2025-02-26 22:15:33,734 - Model - INFO - eval point avg class IoU: 0.940913
+2025-02-26 22:15:33,734 - Model - INFO - eval point accuracy: 0.956811
+2025-02-26 22:15:33,734 - Model - INFO - eval point avg class acc: 0.969715
+2025-02-26 22:15:33,734 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.486, IoU: 0.911 
+class ground         weight: 0.458, IoU: 0.997 
+class soil           weight: 0.056, IoU: 0.914 
+
+2025-02-26 22:15:33,734 - Model - INFO - Eval mean loss: 0.104049
+2025-02-26 22:15:33,735 - Model - INFO - Eval accuracy: 0.956811
+2025-02-26 22:15:33,735 - Model - INFO - Best mIoU: 0.946894
+2025-02-26 22:15:33,735 - Model - INFO - **** Epoch 18 (18/32) ****
+2025-02-26 22:15:33,735 - Model - INFO - Learning rate:0.000700
+2025-02-26 22:22:32,172 - Model - INFO - Training mean loss: 0.063130
+2025-02-26 22:22:32,173 - Model - INFO - Training accuracy: 0.973285
+2025-02-26 22:22:32,173 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2025-02-26 22:23:46,170 - Model - INFO - eval mean loss: 0.087262
+2025-02-26 22:23:46,170 - Model - INFO - eval point avg class IoU: 0.947347
+2025-02-26 22:23:46,170 - Model - INFO - eval point accuracy: 0.962439
+2025-02-26 22:23:46,170 - Model - INFO - eval point avg class acc: 0.973596
+2025-02-26 22:23:46,170 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.922 
+class ground         weight: 0.462, IoU: 0.994 
+class soil           weight: 0.056, IoU: 0.925 
+
+2025-02-26 22:23:46,170 - Model - INFO - Eval mean loss: 0.087262
+2025-02-26 22:23:46,170 - Model - INFO - Eval accuracy: 0.962439
+2025-02-26 22:23:46,170 - Model - INFO - Save model...
+2025-02-26 22:23:46,171 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 22:23:46,212 - Model - INFO - Saving model....
+2025-02-26 22:23:46,212 - Model - INFO - Best mIoU: 0.947347
+2025-02-26 22:23:46,212 - Model - INFO - **** Epoch 19 (19/32) ****
+2025-02-26 22:23:46,213 - Model - INFO - Learning rate:0.000700
+2025-02-26 22:30:42,782 - Model - INFO - Training mean loss: 0.062556
+2025-02-26 22:30:42,782 - Model - INFO - Training accuracy: 0.973314
+2025-02-26 22:30:42,783 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2025-02-26 22:31:56,590 - Model - INFO - eval mean loss: 0.097567
+2025-02-26 22:31:56,591 - Model - INFO - eval point avg class IoU: 0.946483
+2025-02-26 22:31:56,591 - Model - INFO - eval point accuracy: 0.961347
+2025-02-26 22:31:56,591 - Model - INFO - eval point avg class acc: 0.972272
+2025-02-26 22:31:56,591 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.486, IoU: 0.917 
+class ground         weight: 0.458, IoU: 0.997 
+class soil           weight: 0.056, IoU: 0.925 
+
+2025-02-26 22:31:56,591 - Model - INFO - Eval mean loss: 0.097567
+2025-02-26 22:31:56,591 - Model - INFO - Eval accuracy: 0.961347
+2025-02-26 22:31:56,591 - Model - INFO - Best mIoU: 0.947347
+2025-02-26 22:31:56,592 - Model - INFO - **** Epoch 20 (20/32) ****
+2025-02-26 22:31:56,592 - Model - INFO - Learning rate:0.000700
+2025-02-26 22:38:52,313 - Model - INFO - Training mean loss: 0.058872
+2025-02-26 22:38:52,317 - Model - INFO - Training accuracy: 0.974931
+2025-02-26 22:38:52,318 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2025-02-26 22:40:06,031 - Model - INFO - eval mean loss: 0.091630
+2025-02-26 22:40:06,031 - Model - INFO - eval point avg class IoU: 0.948791
+2025-02-26 22:40:06,031 - Model - INFO - eval point accuracy: 0.962384
+2025-02-26 22:40:06,031 - Model - INFO - eval point avg class acc: 0.973217
+2025-02-26 22:40:06,032 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.921 
+class ground         weight: 0.463, IoU: 1.000 
+class soil           weight: 0.056, IoU: 0.926 
+
+2025-02-26 22:40:06,032 - Model - INFO - Eval mean loss: 0.091630
+2025-02-26 22:40:06,032 - Model - INFO - Eval accuracy: 0.962384
+2025-02-26 22:40:06,032 - Model - INFO - Save model...
+2025-02-26 22:40:06,033 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 22:40:06,073 - Model - INFO - Saving model....
+2025-02-26 22:40:06,073 - Model - INFO - Best mIoU: 0.948791
+2025-02-26 22:40:06,073 - Model - INFO - **** Epoch 21 (21/32) ****
+2025-02-26 22:40:06,073 - Model - INFO - Learning rate:0.000490
+2025-02-26 22:47:02,425 - Model - INFO - Training mean loss: 0.054683
+2025-02-26 22:47:02,426 - Model - INFO - Training accuracy: 0.976396
+2025-02-26 22:47:02,427 - Model - INFO - Save model...
+2025-02-26 22:47:02,428 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 22:47:02,460 - Model - INFO - Saving model....
+2025-02-26 22:47:02,461 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2025-02-26 22:48:16,377 - Model - INFO - eval mean loss: 0.088609
+2025-02-26 22:48:16,377 - Model - INFO - eval point avg class IoU: 0.951666
+2025-02-26 22:48:16,377 - Model - INFO - eval point accuracy: 0.964618
+2025-02-26 22:48:16,377 - Model - INFO - eval point avg class acc: 0.974978
+2025-02-26 22:48:16,377 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.926 
+class ground         weight: 0.462, IoU: 0.999 
+class soil           weight: 0.054, IoU: 0.930 
+
+2025-02-26 22:48:16,378 - Model - INFO - Eval mean loss: 0.088609
+2025-02-26 22:48:16,378 - Model - INFO - Eval accuracy: 0.964618
+2025-02-26 22:48:16,378 - Model - INFO - Save model...
+2025-02-26 22:48:16,378 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 22:48:16,413 - Model - INFO - Saving model....
+2025-02-26 22:48:16,413 - Model - INFO - Best mIoU: 0.951666
+2025-02-26 22:48:16,413 - Model - INFO - **** Epoch 22 (22/32) ****
+2025-02-26 22:48:16,413 - Model - INFO - Learning rate:0.000490
+2025-02-26 22:55:12,709 - Model - INFO - Training mean loss: 0.052627
+2025-02-26 22:55:12,711 - Model - INFO - Training accuracy: 0.977172
+2025-02-26 22:55:12,712 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2025-02-26 22:56:26,471 - Model - INFO - eval mean loss: 0.088023
+2025-02-26 22:56:26,472 - Model - INFO - eval point avg class IoU: 0.950909
+2025-02-26 22:56:26,472 - Model - INFO - eval point accuracy: 0.964224
+2025-02-26 22:56:26,472 - Model - INFO - eval point avg class acc: 0.974536
+2025-02-26 22:56:26,472 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.924 
+class ground         weight: 0.459, IoU: 0.999 
+class soil           weight: 0.056, IoU: 0.929 
+
+2025-02-26 22:56:26,472 - Model - INFO - Eval mean loss: 0.088023
+2025-02-26 22:56:26,472 - Model - INFO - Eval accuracy: 0.964224
+2025-02-26 22:56:26,472 - Model - INFO - Best mIoU: 0.951666
+2025-02-26 22:56:26,472 - Model - INFO - **** Epoch 23 (23/32) ****
+2025-02-26 22:56:26,473 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:03:22,993 - Model - INFO - Training mean loss: 0.053613
+2025-02-26 23:03:22,994 - Model - INFO - Training accuracy: 0.976926
+2025-02-26 23:03:22,996 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2025-02-26 23:04:37,034 - Model - INFO - eval mean loss: 0.141028
+2025-02-26 23:04:37,035 - Model - INFO - eval point avg class IoU: 0.891017
+2025-02-26 23:04:37,035 - Model - INFO - eval point accuracy: 0.944361
+2025-02-26 23:04:37,035 - Model - INFO - eval point avg class acc: 0.960914
+2025-02-26 23:04:37,035 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.480, IoU: 0.890 
+class ground         weight: 0.462, IoU: 0.882 
+class soil           weight: 0.058, IoU: 0.901 
+
+2025-02-26 23:04:37,035 - Model - INFO - Eval mean loss: 0.141028
+2025-02-26 23:04:37,035 - Model - INFO - Eval accuracy: 0.944361
+2025-02-26 23:04:37,035 - Model - INFO - Best mIoU: 0.951666
+2025-02-26 23:04:37,035 - Model - INFO - **** Epoch 24 (24/32) ****
+2025-02-26 23:04:37,035 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:11:33,641 - Model - INFO - Training mean loss: 0.053763
+2025-02-26 23:11:33,643 - Model - INFO - Training accuracy: 0.977073
+2025-02-26 23:11:33,643 - Model - INFO - ---- EPOCH 024 EVALUATION ----
+2025-02-26 23:12:47,085 - Model - INFO - eval mean loss: 0.084032
+2025-02-26 23:12:47,086 - Model - INFO - eval point avg class IoU: 0.950652
+2025-02-26 23:12:47,086 - Model - INFO - eval point accuracy: 0.964557
+2025-02-26 23:12:47,086 - Model - INFO - eval point avg class acc: 0.974973
+2025-02-26 23:12:47,086 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.480, IoU: 0.927 
+class ground         weight: 0.463, IoU: 0.996 
+class soil           weight: 0.057, IoU: 0.929 
+
+2025-02-26 23:12:47,086 - Model - INFO - Eval mean loss: 0.084032
+2025-02-26 23:12:47,086 - Model - INFO - Eval accuracy: 0.964557
+2025-02-26 23:12:47,086 - Model - INFO - Best mIoU: 0.951666
+2025-02-26 23:12:47,086 - Model - INFO - **** Epoch 25 (25/32) ****
+2025-02-26 23:12:47,086 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:20:46,596 - Model - INFO - Training mean loss: 0.050707
+2025-02-26 23:20:46,599 - Model - INFO - Training accuracy: 0.977932
+2025-02-26 23:20:46,601 - Model - INFO - ---- EPOCH 025 EVALUATION ----
+2025-02-26 23:22:17,003 - Model - INFO - eval mean loss: 0.084135
+2025-02-26 23:22:17,003 - Model - INFO - eval point avg class IoU: 0.952398
+2025-02-26 23:22:17,003 - Model - INFO - eval point accuracy: 0.966046
+2025-02-26 23:22:17,003 - Model - INFO - eval point avg class acc: 0.975991
+2025-02-26 23:22:17,003 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.929 
+class ground         weight: 0.462, IoU: 0.996 
+class soil           weight: 0.055, IoU: 0.932 
+
+2025-02-26 23:22:17,004 - Model - INFO - Eval mean loss: 0.084135
+2025-02-26 23:22:17,004 - Model - INFO - Eval accuracy: 0.966046
+2025-02-26 23:22:17,004 - Model - INFO - Save model...
+2025-02-26 23:22:17,005 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 23:22:17,050 - Model - INFO - Saving model....
+2025-02-26 23:22:17,050 - Model - INFO - Best mIoU: 0.952398
+2025-02-26 23:22:17,050 - Model - INFO - **** Epoch 26 (26/32) ****
+2025-02-26 23:22:17,050 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:30:43,154 - Model - INFO - Training mean loss: 0.049954
+2025-02-26 23:30:43,155 - Model - INFO - Training accuracy: 0.978307
+2025-02-26 23:30:43,156 - Model - INFO - Save model...
+2025-02-26 23:30:43,158 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-26 23:30:43,189 - Model - INFO - Saving model....
+2025-02-26 23:30:43,190 - Model - INFO - ---- EPOCH 026 EVALUATION ----
+2025-02-26 23:32:13,416 - Model - INFO - eval mean loss: 0.086344
+2025-02-26 23:32:13,417 - Model - INFO - eval point avg class IoU: 0.952521
+2025-02-26 23:32:13,417 - Model - INFO - eval point accuracy: 0.965871
+2025-02-26 23:32:13,417 - Model - INFO - eval point avg class acc: 0.975685
+2025-02-26 23:32:13,417 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.928 
+class ground         weight: 0.460, IoU: 0.997 
+class soil           weight: 0.058, IoU: 0.933 
+
+2025-02-26 23:32:13,417 - Model - INFO - Eval mean loss: 0.086344
+2025-02-26 23:32:13,417 - Model - INFO - Eval accuracy: 0.965871
+2025-02-26 23:32:13,417 - Model - INFO - Save model...
+2025-02-26 23:32:13,417 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 23:32:13,446 - Model - INFO - Saving model....
+2025-02-26 23:32:13,446 - Model - INFO - Best mIoU: 0.952521
+2025-02-26 23:32:13,446 - Model - INFO - **** Epoch 27 (27/32) ****
+2025-02-26 23:32:13,446 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:40:43,342 - Model - INFO - Training mean loss: 0.051371
+2025-02-26 23:40:43,344 - Model - INFO - Training accuracy: 0.978009
+2025-02-26 23:40:43,345 - Model - INFO - ---- EPOCH 027 EVALUATION ----
+2025-02-26 23:42:13,025 - Model - INFO - eval mean loss: 0.146064
+2025-02-26 23:42:13,026 - Model - INFO - eval point avg class IoU: 0.926255
+2025-02-26 23:42:13,026 - Model - INFO - eval point accuracy: 0.945978
+2025-02-26 23:42:13,026 - Model - INFO - eval point avg class acc: 0.962045
+2025-02-26 23:42:13,026 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.892 
+class ground         weight: 0.462, IoU: 0.995 
+class soil           weight: 0.056, IoU: 0.892 
+
+2025-02-26 23:42:13,026 - Model - INFO - Eval mean loss: 0.146064
+2025-02-26 23:42:13,026 - Model - INFO - Eval accuracy: 0.945978
+2025-02-26 23:42:13,026 - Model - INFO - Best mIoU: 0.952521
+2025-02-26 23:42:13,026 - Model - INFO - **** Epoch 28 (28/32) ****
+2025-02-26 23:42:13,026 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:49:33,053 - Model - INFO - Training mean loss: 0.050519
+2025-02-26 23:49:33,053 - Model - INFO - Training accuracy: 0.978209
+2025-02-26 23:49:33,055 - Model - INFO - ---- EPOCH 028 EVALUATION ----
+2025-02-26 23:50:46,535 - Model - INFO - eval mean loss: 0.081637
+2025-02-26 23:50:46,535 - Model - INFO - eval point avg class IoU: 0.953481
+2025-02-26 23:50:46,535 - Model - INFO - eval point accuracy: 0.966244
+2025-02-26 23:50:46,536 - Model - INFO - eval point avg class acc: 0.976322
+2025-02-26 23:50:46,536 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.482, IoU: 0.930 
+class ground         weight: 0.460, IoU: 0.999 
+class soil           weight: 0.058, IoU: 0.931 
+
+2025-02-26 23:50:46,536 - Model - INFO - Eval mean loss: 0.081637
+2025-02-26 23:50:46,536 - Model - INFO - Eval accuracy: 0.966244
+2025-02-26 23:50:46,536 - Model - INFO - Save model...
+2025-02-26 23:50:46,536 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-26 23:50:46,572 - Model - INFO - Saving model....
+2025-02-26 23:50:46,572 - Model - INFO - Best mIoU: 0.953481
+2025-02-26 23:50:46,572 - Model - INFO - **** Epoch 29 (29/32) ****
+2025-02-26 23:50:46,572 - Model - INFO - Learning rate:0.000490
+2025-02-26 23:57:42,386 - Model - INFO - Training mean loss: 0.052896
+2025-02-26 23:57:42,386 - Model - INFO - Training accuracy: 0.977707
+2025-02-26 23:57:42,387 - Model - INFO - ---- EPOCH 029 EVALUATION ----
+2025-02-26 23:58:56,276 - Model - INFO - eval mean loss: 0.101976
+2025-02-26 23:58:56,278 - Model - INFO - eval point avg class IoU: 0.941519
+2025-02-26 23:58:56,278 - Model - INFO - eval point accuracy: 0.957567
+2025-02-26 23:58:56,278 - Model - INFO - eval point avg class acc: 0.970137
+2025-02-26 23:58:56,278 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.481, IoU: 0.913 
+class ground         weight: 0.463, IoU: 0.996 
+class soil           weight: 0.056, IoU: 0.915 
+
+2025-02-26 23:58:56,279 - Model - INFO - Eval mean loss: 0.101976
+2025-02-26 23:58:56,279 - Model - INFO - Eval accuracy: 0.957567
+2025-02-26 23:58:56,279 - Model - INFO - Best mIoU: 0.953481
+2025-02-26 23:58:56,279 - Model - INFO - **** Epoch 30 (30/32) ****
+2025-02-26 23:58:56,279 - Model - INFO - Learning rate:0.000490
+2025-02-27 00:05:51,429 - Model - INFO - Training mean loss: 0.047182
+2025-02-27 00:05:51,429 - Model - INFO - Training accuracy: 0.979477
+2025-02-27 00:05:51,431 - Model - INFO - ---- EPOCH 030 EVALUATION ----
+2025-02-27 00:07:05,282 - Model - INFO - eval mean loss: 0.102159
+2025-02-27 00:07:05,282 - Model - INFO - eval point avg class IoU: 0.947110
+2025-02-27 00:07:05,282 - Model - INFO - eval point accuracy: 0.961246
+2025-02-27 00:07:05,282 - Model - INFO - eval point avg class acc: 0.972255
+2025-02-27 00:07:05,283 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.483, IoU: 0.917 
+class ground         weight: 0.461, IoU: 0.999 
+class soil           weight: 0.056, IoU: 0.925 
+
+2025-02-27 00:07:05,283 - Model - INFO - Eval mean loss: 0.102159
+2025-02-27 00:07:05,283 - Model - INFO - Eval accuracy: 0.961246
+2025-02-27 00:07:05,283 - Model - INFO - Best mIoU: 0.953481
+2025-02-27 00:07:05,283 - Model - INFO - **** Epoch 31 (31/32) ****
+2025-02-27 00:07:05,283 - Model - INFO - Learning rate:0.000343
+2025-02-27 00:14:01,971 - Model - INFO - Training mean loss: 0.045221
+2025-02-27 00:14:01,972 - Model - INFO - Training accuracy: 0.980301
+2025-02-27 00:14:01,972 - Model - INFO - Save model...
+2025-02-27 00:14:01,973 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/model.pth
+2025-02-27 00:14:02,019 - Model - INFO - Saving model....
+2025-02-27 00:14:02,020 - Model - INFO - ---- EPOCH 031 EVALUATION ----
+2025-02-27 00:15:15,584 - Model - INFO - eval mean loss: 0.073974
+2025-02-27 00:15:15,584 - Model - INFO - eval point avg class IoU: 0.957457
+2025-02-27 00:15:15,585 - Model - INFO - eval point accuracy: 0.969191
+2025-02-27 00:15:15,585 - Model - INFO - eval point avg class acc: 0.978183
+2025-02-27 00:15:15,585 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.479, IoU: 0.936 
+class ground         weight: 0.462, IoU: 0.999 
+class soil           weight: 0.059, IoU: 0.938 
+
+2025-02-27 00:15:15,585 - Model - INFO - Eval mean loss: 0.073974
+2025-02-27 00:15:15,585 - Model - INFO - Eval accuracy: 0.969191
+2025-02-27 00:15:15,585 - Model - INFO - Save model...
+2025-02-27 00:15:15,585 - Model - INFO - Saving at log/sem_seg/pointnet2_sem_seg/checkpoints/best_model.pth
+2025-02-27 00:15:15,622 - Model - INFO - Saving model....
+2025-02-27 00:15:15,622 - Model - INFO - Best mIoU: 0.957457
+2025-02-27 00:15:15,623 - Model - INFO - **** Epoch 32 (32/32) ****
+2025-02-27 00:15:15,623 - Model - INFO - Learning rate:0.000343
+2025-02-27 00:22:13,575 - Model - INFO - Training mean loss: 0.044776
+2025-02-27 00:22:13,576 - Model - INFO - Training accuracy: 0.980548
+2025-02-27 00:22:13,578 - Model - INFO - ---- EPOCH 032 EVALUATION ----
+2025-02-27 00:23:27,353 - Model - INFO - eval mean loss: 0.078753
+2025-02-27 00:23:27,353 - Model - INFO - eval point avg class IoU: 0.955525
+2025-02-27 00:23:27,353 - Model - INFO - eval point accuracy: 0.967436
+2025-02-27 00:23:27,354 - Model - INFO - eval point avg class acc: 0.977034
+2025-02-27 00:23:27,354 - Model - INFO - ------- IoU --------
+class excavator      weight: 0.484, IoU: 0.932 
+class ground         weight: 0.461, IoU: 1.000 
+class soil           weight: 0.054, IoU: 0.935 
+
+2025-02-27 00:23:27,354 - Model - INFO - Eval mean loss: 0.078753
+2025-02-27 00:23:27,354 - Model - INFO - Eval accuracy: 0.967436
+2025-02-27 00:23:27,354 - Model - INFO - Best mIoU: 0.957457
